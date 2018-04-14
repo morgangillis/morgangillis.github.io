@@ -27,10 +27,28 @@
         font-family: Georgia;
         color: #333333;
       }
+      div{
+        height:0px;
+        width:1px;
+        border-bottom:1px solid #000;
+        
+        -webkit-animation: increase 3s;
+        -moz-animation:    increase 3s;
+        -o-animation:      increase 3s;
+        animation:         increase 3s;
+        animation-fill-mode: forwards;
+      }
+
+      @keyframes increase {
+        100% {
+          width: 300px;
+        }
+      }
     </style>
   </head>
   <body>
     <h1>Morgan Gillis</h1>
+    <div></div>
     <h2>Morgan Gillis</h2>
     <h3>Morgan Gillis</h3>
     <h4>Morgan Gillis</h4>
