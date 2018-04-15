@@ -13,6 +13,7 @@ url: https://morgangillis.github.io/
 # highlighter: pygments
 
 sass:
+  sass-dir: _sass
   style: :compressed
 
 gems:
