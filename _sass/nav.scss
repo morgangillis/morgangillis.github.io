@@ -1,7 +1,6 @@
 // Navigation bar
 
 nav {
-  float: right;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -13,6 +12,7 @@ nav {
     font-weight: bold;
     font-size: 1em;
     li {
+      float: right;
       display: inline-block;
       a {
         color: #aaa;
@@ -31,8 +31,12 @@ nav {
 
 .navhome {
   float: left;
+  //display: inline-block;
   //position: relative;
-  margin: 0;
+  //margin: 0;
+  a {
+    color: #2a3a4b;
+  }
 }
 
 /*
