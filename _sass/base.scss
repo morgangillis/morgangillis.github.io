@@ -34,22 +34,6 @@ footer {
   margin-bottom: 2rem;
 }
 
-// Links
-a {
-  color: #268bd2;
-  text-decoration: none;
-
-  // `:focus` is linked to `:hover` for basic accessibility
-  &:hover,
-  &:focus {
-    text-decoration: underline;
-  }
-
-  strong {
-    color: inherit;
-  }
-}
-
 // Images
 img {
   display: block;
