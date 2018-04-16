@@ -7,7 +7,7 @@
 }
 
 html, body {
-  margin: auto;
+  margin: 0;
   padding: 0;
 }
 
@@ -20,10 +20,10 @@ body {
 
 .container {
   max-width: 60rem;
-  padding-left:  2rem;
-  padding-right: 2rem;
-  margin-left:  auto;
-  margin-right: auto;
+  //padding-left:  2rem;
+  //padding-right: 2rem;
+  margin-left:  2rem;
+  margin-right: 2rem;
 }
 
 nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
