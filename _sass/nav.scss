@@ -17,8 +17,8 @@ nav {
       a {
         color: #aaa;
         display: block;
-        //line-height: 0;
-        vertical-align: middle;
+        line-height: 2rem;
+        //vertical-align: middle;
         padding: 0.5em 1em;
         text-decoration: none;
         &:hover, &:focus {
@@ -34,9 +34,6 @@ nav {
   float: left;
   font-family: 'Spectral', 'Georgia', serif;
   font-size: 2rem;
-  //display: inline-block;
-  //position: relative;
-  //margin: 0;
   a {
     color: #2a3a4b;
   }
