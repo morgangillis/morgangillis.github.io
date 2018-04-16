@@ -4,6 +4,8 @@ nav {
   margin: 0;
   overflow: hidden;
   text-align: center;
+  display: inline-block;
+  vertical-align: middle;
   ul {
     margin: 0;
     padding: 0;
@@ -13,8 +15,7 @@ nav {
     font-size: 1em;
     li {
       float: right;
-      display: inline-block;
-      vertical-align: middle;
+      //display: inline-block;
       a {
         color: #aaa;
         display: block;
