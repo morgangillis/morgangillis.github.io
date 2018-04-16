@@ -8,6 +8,8 @@ description: 'I am a student at Santa Clara University. I study physics.'
 url: 'http://morgangillis.github.io'
 baseurl: ''
 
+permalink: blog/:year/:month/:title
+
 # Syntax highlighting
 # highlighter: pygments
 
