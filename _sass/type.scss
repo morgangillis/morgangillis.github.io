@@ -13,3 +13,16 @@ h1, h2, h3, h4, h5, h6 {
 
 // Paragraph
 p { font-family: 'Inter UI', sans-serif; }
+
+// Links
+a {
+  color: red;
+  text-decoration: none;
+  // `:focus` is linked to `:hover` for basic accessibility
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
+  strong {
+    color: inherit;
+  }
+}
