@@ -21,6 +21,7 @@ nav {
         padding: 0.5em 1em;
         text-decoration: none;
         &:hover, &:focus {
+          text-decoration: none;
           color: #2a3a4b;
         }
       }
