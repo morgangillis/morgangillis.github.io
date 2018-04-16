@@ -5,7 +5,11 @@
 @import url('https://rsms.me/inter/inter-ui.css');
 
 // Headers
-h1, h2, h3, h4, h5, h6 { font-family: 'Spectral', 'Georgia', serif; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Spectral', 'Georgia', serif;
+  text-rendering: geometricPrecision; // or optimizeLegibility
+  color: #2a3a4b;
+}
 
 // Paragraph
 p { font-family: 'Inter UI', sans-serif; }
