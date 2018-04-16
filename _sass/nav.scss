@@ -14,11 +14,11 @@ nav {
     li {
       float: right;
       display: inline-block;
+      vertical-align: middle;
       a {
         color: #aaa;
         display: block;
-        line-height: 2rem;
-        //vertical-align: middle;
+        //line-height: 2rem;
         padding: 0.5em 1em;
         text-decoration: none;
         &:hover, &:focus {
