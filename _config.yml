@@ -12,7 +12,6 @@ baseurl: ''
 # highlighter: pygments
 
 sass:
-  sass-dir: _sass
   style: :compressed
 
 gems:
