@@ -28,6 +28,12 @@ header, .container, footer {
 }
 
 // Navigation bar
+nav {
+  float: right;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
 nav ul, footer ul {
   font-size: 1em;
   font-family: 'Inter UI', sans-serif;
@@ -35,19 +41,26 @@ nav ul, footer ul {
   list-style: none;
   font-weight: bold;
 }
-
+nav ul {
+  margin: 0;
+  padding 0;
+}
 nav ul li {
-  float: right;
+  display: inline-block;
+  list-style-type: none;
+}
+nav > ul > li > a {
+  color: #aaa;
   display: block;
+  line-height: 2em;
+  padding: 0.5em 1em;
+  text-decoration: none;
 }
 .navhome {
   float: left;
-  display: block;
+  position: relative;
+  margin: 10px 15px 15px 10px;
 }
-//nav ul li, footer ul li {
-//  display: inline;
-//  margin-right: 60px;
-//}
 
 // Images
 img {
