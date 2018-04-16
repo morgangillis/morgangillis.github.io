@@ -1,0 +1,11 @@
+// Typography and fonts
+
+// Import some fonts
+@import url('https://fonts.googleapis.com/css?family=Spectral:700');
+@import url('https://rsms.me/inter/inter-ui.css');
+
+// Headers
+h1, h2, h3, h4, h5, h6 { font-family: 'Spectral', 'Georgia', serif; }
+
+// Paragraph
+p { font-family: 'Inter UI', sans-serif; }
