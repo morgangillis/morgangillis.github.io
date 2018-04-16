@@ -1,8 +1,8 @@
 <nav>
   <ul>
-    <li><h1><a href="/">{{ site.title }}</a></h1></li>
+    <li class="navhome"><h1><a href="/">{{ site.title }}</a></h1></li>
     {% for page in site.data.menu %}
-    <li><a href="{{ page.href }}" class="pagelink">{{ page.title }}</a>
+    <li><a href="{{ page.href }}">{{ page.title }}</a>
     {% endfor %}
   </ul>
 </nav>
