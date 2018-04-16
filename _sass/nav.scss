@@ -5,8 +5,9 @@ nav {
   margin: 0;
   overflow: hidden;
   text-align: center;
-  display: inline-block;
-  list-style: none;
+  ul {
+    list_style: none;
+  }
 }
 
 /*
