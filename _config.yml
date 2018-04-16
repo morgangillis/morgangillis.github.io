@@ -3,12 +3,10 @@ tagline: Test tagline.
 email: mgillis@scu.edu
 markdown: kramdown
 
-description: > # this means to ignore newlines until "baseurl:"
-  I'm a student at Santa Clara University.
-  I study physics.
+description: 'I am a student at Santa Clara University. I study physics.'
 
-url: "http://morgangillis.github.io"
-baseurl: ""
+url: 'http://morgangillis.github.io'
+baseurl: ''
 
 # Syntax highlighting
 # highlighter: pygments
