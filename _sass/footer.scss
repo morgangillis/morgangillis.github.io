@@ -1,20 +1,23 @@
 footer {
   border-top: 1px solid #2a3a4b;
-  ul {
-    font-family: 'Inter UI', sans-serif;
-    font-size: 0.6em;
-    list-style: none;
-    // margin: auto;
-    // display: inline-block;
-    li {
-      display: inline;
-      a {
-        color: #888;
-        padding: 0.5em 1em;
-        text-decoration: none;
-        &:hover, &:focus {
+  div {
+    text-align: center;
+    ul {
+      font-family: 'Inter UI', sans-serif;
+      font-size: 0.6em;
+      list-style: none;
+      // margin: auto;
+      display: inline-block;
+      li {
+        display: inline;
+        a {
+          color: #888;
+          padding: 0.5em 1em;
           text-decoration: none;
-          color: #2a3a4b;
+          &:hover, &:focus {
+            text-decoration: none;
+            color: #2a3a4b;
+          }
         }
       }
     }
