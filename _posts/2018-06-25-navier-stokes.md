@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Quick Brown Fox Jumps Over the Lazy Dog The Quick Brown Fox Jumps Over the Lazy Dog
+title: Navier-Stokes
 ---
 
 Macroscopic swimmers experience an interplay of forces vastly different than that of microscopic swimmers, even in the same fluid (a common example being water). The distinction between these two realms of fluid dynamics is frequently encapsulated in the relative size of a quantity dependent on the fluid parameters, known as the Reynolds number  Re, which is defined as
