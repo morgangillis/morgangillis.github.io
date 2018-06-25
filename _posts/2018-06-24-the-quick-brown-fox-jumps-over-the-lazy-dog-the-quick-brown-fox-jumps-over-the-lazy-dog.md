@@ -4,7 +4,9 @@ title: The Quick Brown Fox Jumps Over the Lazy Dog The Quick Brown Fox Jumps Ove
 ---
 
 Macroscopic swimmers experience an interplay of forces vastly different than that of microscopic swimmers, even in the same fluid (a common example being water). The distinction between these two realms of fluid dynamics is frequently encapsulated in the relative size of a quantity dependent on the fluid parameters, known as the Reynolds number  Re, which is defined as
+
 $$\text{Re} = \frac{\rho v L}{\mu}$$
+
 where $\rho$ is the density of the fluid, $v$ is the swimmer’s speed relative to the fluid, $L$ is the length scale of the swimmer, and $\mu$ is the viscosity of the fluid. The usefulness of the Reynolds number for characterizing swimming behavior is that it grows large for large $L$ (macroscopic swimmers) and vanishes for small $L$ (microscopic swimmers).
 
 One way it’s often put is that a large Reynolds number causes inertial forces to dominate for swimmers, while a small Reynolds number instead favors viscous forces. To see why this is the case, we consider one particular form of the Navier-Stokes equation, which governs incompressible fluids:
