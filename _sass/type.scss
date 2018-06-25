@@ -23,11 +23,12 @@ p { font-family: 'Inter UI', sans-serif; }
 
 // Links
 a {
-  color: red;
+  color: #888;
   text-decoration: none;
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover, &:focus {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #2a3a4b;
   }
   strong {
     color: inherit;
