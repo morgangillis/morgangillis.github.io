@@ -12,5 +12,5 @@ permalink: /blog/
 </ul>
 
 {% for post in site.posts %}
-<h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3><p><span>{{ post.date | date_to_string }}</span></p>
+<h4><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4><span>{{ post.date | date_to_string }}</span>
 {% endfor %}
