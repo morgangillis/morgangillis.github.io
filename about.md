@@ -6,4 +6,4 @@ permalink: /about/
 
 This is the page about me. I'm a student at Santa Clara University.
 
-![portrait alt <>]({{ site.url }}/assets/professional_square_1000x1000.jpg){:height="512px" width="512px"}
+![portrait alt <>]({{ site.url }}/assets/professional_square_1000x1000.jpg){:height="256px" width="256px"}
