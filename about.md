@@ -5,3 +5,5 @@ permalink: /about/
 ---
 
 This is the page about me. I'm a student at Santa Clara University.
+
+![portrait](_assets/professional_square_512x512.jpg){:class="img-responsive"}
