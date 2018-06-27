@@ -5,7 +5,7 @@ markdown: kramdown
 
 description: 'I am a student at Santa Clara University. I study physics.'
 
-url: 'http://morgangillis.github.io'
+url: 'https://morgangillis.github.io'
 baseurl: ''
 
 permalink: blog/:title
