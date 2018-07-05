@@ -5,11 +5,11 @@ footer {
       border: none;
       height: 1px;
       // margin: 2em 0;
-      background-image: linear-gradient(to right, transparent, #2a3a4b, transparent);
-      // background-image: -webkit-linear-gradient(left, #fff, #ccc, #fff);
-      // background-image: -moz-linear-gradient(left, #fff, #ccc, #fff);
-      // background-image: -ms-linear-gradient(left, #fff, #ccc, #fff);
-      // background-image: -o-linear-gradient(left, #fff, #ccc, #fff);
+      // background-image: linear-gradient(to right, transparent, #2a3a4b, transparent);
+      background-image: -webkit-linear-gradient(left, transparent, #2a3a4b, transparent);
+      background-image: -moz-linear-gradient(left, transparent, #2a3a4b, transparent);
+      background-image: -ms-linear-gradient(left, transparent, #2a3a4b, transparent);
+      background-image: -o-linear-gradient(left, transparent, #2a3a4b, transparent);
     }
     ul {
       font-family: 'Inter UI', sans-serif;
