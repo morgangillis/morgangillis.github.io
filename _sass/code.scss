@@ -25,14 +25,14 @@ pre code {
 .highlight {
   padding: 1rem;
   margin-bottom: 1rem;
-  font-size: .8rem;
-  line-height: 1.4;
-  //background: blue;
+  //font-size: .8rem;
+  //line-height: 1.4;
+  background: #e9ebed;
   border-radius: 3px; //.25rem;
   
-  .highlighter-rouge & {
-    background: #e9ebed;
-  }
+  //.highlighter-rouge & {
+  //  background: #e9ebed;
+  //}
 
   pre {
     margin-bottom: 0;
