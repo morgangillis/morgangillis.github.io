@@ -20,14 +20,18 @@ Equation from SOFIA paper:
 
 $$F(H_2)=F(H_2')-\frac{F(K_S)-F(H_2')}{\Delta\lambda(K_S)-\Delta\lambda(H_2')}\Delta\lambda(H_2')$$
 
-Up next is some test code. Here it is.
+Up next is some test MATLAB code. Here it is.
 
-```
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+``` matlab
+% Add text markers to the four peaks
+x_peaks = [0.0515,0.076,0.1355,0.184];
+y_peaks = [3.45,5.2,1.95,0.75];
+str = {'87b','85b','85a','87a'};
+text(x_peaks,y_peaks,str,...
+     'HorizontalAlignment','center',...
+     'FontUnits','points',...
+     'FontSize',fsz,...
+     'FontName','Times');
 ```
 
-That was the code. I'm just testing it out.
+That was the code. Here's `some test inline code` which doesn't have any particular syntax. I'm just testing it out.
