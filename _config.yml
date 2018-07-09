@@ -1,7 +1,6 @@
 title: Morgan Gillis
 tagline: Test tagline.
 email: mgillis@scu.edu
-markdown: kramdown
 
 description: 'I am a student at Santa Clara University. I study physics.'
 
@@ -9,6 +8,8 @@ url: 'https://morgangillis.github.io'
 baseurl: ''
 
 permalink: blog/:title
+
+markdown: kramdown
 
 # Syntax highlighting
 highlighter: rouge
