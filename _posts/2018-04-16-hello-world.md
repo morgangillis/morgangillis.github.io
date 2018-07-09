@@ -19,3 +19,13 @@ $$\sigma_{A}^2\sigma_{B}^2\geq\left(\frac{1}{2i}([\hat{A},\hat{B}])\right)^2$$
 Equation from SOFIA paper:
 
 $$F(H_2)=F(H_2')-\frac{F(K_S)-F(H_2')}{\Delta\lambda(K_S)-\Delta\lambda(H_2')}\Delta\lambda(H_2')$$
+
+Up next is some test code. Here it is.
+```
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+```
+That was the code. I'm just testing it out.
