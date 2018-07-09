@@ -34,3 +34,13 @@ a {
     color: inherit;
   }
 }
+
+// Text highlight color
+::-moz-selection { 
+background-color: #2a3a4b; 
+//color: #ffffff;
+}
+::selection {
+background-color: #2a3a4b;
+//color: #ffffff;
+}
