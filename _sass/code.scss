@@ -5,8 +5,6 @@ code, pre {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  // color: inherit;
-  // background-color: #f6f6f6;
   color: #2a3a4b;
   background-color: #e9ebed;
   border-radius: 3px;
@@ -19,12 +17,11 @@ pre {
 
 pre code {
   padding: 0;
-  font-size: 100%;
+  font-size: 200%;
   color: inherit;
   background-color: transparent;
 }
 
-// Pygments via Jekyll
 .highlight {
   padding: 1rem;
   margin-bottom: 1rem;
