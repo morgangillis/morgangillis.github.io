@@ -11,8 +11,9 @@ code {
 }
 
 pre {
-  margin-top: 0;
-  margin-bottom: 0rem;
+  //margin-top: 0;
+  //margin-bottom: 0rem;
+  //margin: 0;
 }
 
 pre code {
@@ -35,10 +36,10 @@ pre code {
   //  background: #e9ebed;
   //}
 
-  //pre {
-  //  margin-bottom: 0;
-  //  overflow-x: auto;
-  //}
+  pre {
+    margin-bottom: 0;
+    overflow-x: auto;
+  }
 
   .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
