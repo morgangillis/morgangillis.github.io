@@ -28,11 +28,11 @@ pre code {
   //font-size: .8rem;
   //line-height: 1.4;
   background: blue;
-  //border-radius: .25rem;
+  border-radius: 3px; //.25rem;
   
-  //.highlighter-rouge & {
-  //  background: #e9ebed;
-  //}
+  .highlighter-rouge & {
+    background: #e9ebed;
+  }
 
   pre {
     margin-bottom: 0;
