@@ -16,10 +16,11 @@ pre {
 }
 
 pre code {
-  padding: 0;
+  //padding: 0;
   font-size: 90%;
   color: inherit;
   background: transparent;
+  overflow-x: auto;
 }
 
 .highlight {
@@ -34,10 +35,10 @@ pre code {
   //  background: #e9ebed;
   //}
 
-  pre {
-    margin-bottom: 0;
-    overflow-x: auto;
-  }
+  //pre {
+  //  margin-bottom: 0;
+  //  overflow-x: auto;
+  //}
 
   .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
