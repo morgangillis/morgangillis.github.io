@@ -20,7 +20,7 @@ Equation from SOFIA paper:
 
 $$F(H_2)=F(H_2')-\frac{F(K_S)-F(H_2')}{\Delta\lambda(K_S)-\Delta\lambda(H_2')}\Delta\lambda(H_2')$$
 
-Up next is some test MATLAB code, with Rouge syntax highlighting. Here it is.
+Up next is some test MATLAB code, with [Rouge syntax highlighting](http://rouge.jneen.net/). Here it is.
 
 ``` matlab
 x = 2;
