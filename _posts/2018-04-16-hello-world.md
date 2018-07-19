@@ -4,7 +4,7 @@ title: Hello World!
 ---
 
 In physics, the mass-energy equivalence is $\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$ stated 
-by the equation $E=mc^2$, discovered in 1905 by Albert Einstein.
+by the equation $E=mc^2$, discovered in 1905 by Albert Einstein. The quick brown fox $$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$ jumps over the lazy dog.
 
 $$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$
 
