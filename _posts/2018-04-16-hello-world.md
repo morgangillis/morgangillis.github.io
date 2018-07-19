@@ -8,6 +8,10 @@ by the equation $E=mc^2$, discovered in 1905 by Albert Einstein. The quick brown
 
 $$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$
 
+\[\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}\]
+
+\\[\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}\\]
+
 The Time-Independent Schrödinger Equation:
 
 $$-\frac{\hbar^2}{2m}\frac{\partial^2\Psi}{\partial x^2}+V\Psi=E\Psi$$
