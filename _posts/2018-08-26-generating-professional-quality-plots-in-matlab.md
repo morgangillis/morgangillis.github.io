@@ -11,7 +11,7 @@ x_data = 0:10;
 y_data = x_data.^2;
 plot(x_data,y_data);
 ```
-![default_plot](~/Downloads/default_plot.jpg)
+![default_plot]({{ site.url }}/assets/generating-professional-quality-plots-in-matlab/default_plot.jpg)
 In its current form, this plot would not translate well at all to a professional document meant to be read on paper. So let's add a few tweaks to get it looking much more presentable.
 
 First, let's define some parameters to be used for various aspects of the plot configuration:
@@ -84,6 +84,6 @@ print('filename','-dpdf');
 The file will be generated in the same directory as your code.
 
 Here's what the plot now looks like:
-![final_plot](~/Downloads/final_plot.jpg)
+![final_plot]({{ site.url }}/assets/generating-professional-quality-plots-in-matlab/final_plot.jpg)
 
 The finished product looks particularly good in papers written in LaTeX. Happy plotting!
