@@ -17,29 +17,30 @@ Let's name some variables. Call the length of the clock hand $R$, and the bug's 
 
 We start by defining the angular velocity of the bug, $v_\theta$, in terms of $\omega$:
 
-\[v_\theta = \omega r,\]
+\\[v_\theta = \omega r,\\]
+
 where $r$ is the bug's distance from the center of the clock. We can then use this result to get an expression for the centrifugal force pushing the bug radially outward, which depends solely on $r$:
 
-\[F_\text{centrifugal} = \frac{m v_\theta^2}{r} = \frac{m \omega^2 r^2}{r} = m \omega^2 r.\]
+\\[F_\text{centrifugal} = \frac{m v_\theta^2}{r} = \frac{m \omega^2 r^2}{r} = m \omega^2 r.\\]
 
 With this in hand, you might notice that it's actually a pretty simple differential equation to solve for $r(t)$:
 
-\[\frac{F_\text{centrifugal}}{m} = a_\text{centrifugal} = \frac{d^2r}{dt^2} = \omega^2 r,\]
+\\[\frac{F_\text{centrifugal}}{m} = a_\text{centrifugal} = \frac{d^2r}{dt^2} = \omega^2 r,\\]
 
-\[r(t) = r_0 e^{\omega t}.\]
+\\[r(t) = r_0 e^{\omega t}.\\]
 
 From this, we can integrate over $dr$ and set it equal to the total radial distance traveled by the bug, $R - r_0$:
 
-\[R - r_0 = \int dr = \int_0^{t_\text{fall-off}} \omega r_0 e^{\omega t} dt = r_0 \left( e^{\omega t_\text{fall-off}} - 1 \right).\]
+\\[R - r_0 = \int dr = \int_0^{t_\text{fall-off}} \omega r_0 e^{\omega t} dt = r_0 \left( e^{\omega t_\text{fall-off}} - 1 \right).\\]
 
 Simplifying, we find that:
 
-\[\frac{R}{r_0} = e^{\omega t_\text{fall-off}},\]
+\\[\frac{R}{r_0} = e^{\omega t_\text{fall-off}},\\]
 
-\[t_\text{fall-off} = \frac{1}{\omega} \ln\left(\frac{R}{r_0}\right).\]
+\\[t_\text{fall-off} = \frac{1}{\omega} \ln\left(\frac{R}{r_0}\right).\\]
 
 And since $\theta = \omega t$,
 
-\[\theta_\text{fall-off} = \ln\left(\frac{R}{r_0}\right).\]
+\\[\theta_\text{fall-off} = \ln\left(\frac{R}{r_0}\right).\\]
 
 Quite a fascinating, but sensible result! Naturally, if $R$ and $r_0$ are equal—in other words, the bug already starts out on the tip of the clock hand—then the angle of fall-off is 0. Conversely, if the bug starts right in the center of the clock so $r_0$ is 0, then the angle is undefined—the bug never moves from its starting position.
