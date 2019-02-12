@@ -35,9 +35,9 @@ From this, we can plug in $t_\text{fall-off}$, and set the left-hand side equal 
 
 Rearranging, we find that:
 
-\\[t_\text{fall-off} = \frac{1}{\omega} \ln\left(\frac{R}{r_0}\right).\\]
+\\[t_\text{fall-off} = \frac{1}{\omega} \ln\left(\frac{R}{r_0}\right),\\]
 
-And since $\theta = \omega t$,
+and since $\theta = \omega t$,
 
 \\[\theta_\text{fall-off} = \ln\left(\frac{R}{r_0}\right).\\]
 
