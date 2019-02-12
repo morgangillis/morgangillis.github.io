@@ -29,13 +29,11 @@ With this in hand, you might notice that it's actually a pretty simple different
 
 \\[r(t) = r_0 e^{\omega t}.\\]
 
-From this, we can integrate over $dr$ and set it equal to the total radial distance traveled by the bug, $R - r_0$:
+From this, we can plug in $t_\text{fall-off}$, and set the left-hand side equal to $R$ (since the bug flies off the *end* of the clock hand):
 
-\\[R - r_0 = \int dr = \int_0^{t_\text{fall-off}} \omega r_0 e^{\omega t} dt = r_0 \left( e^{\omega t_\text{fall-off}} - 1 \right).\\]
+\\[r(t_\text{fall-off}) = R = r_0 e^{\omega t_\text{fall-off}}.\\]
 
-Simplifying, we find that:
-
-\\[\frac{R}{r_0} = e^{\omega t_\text{fall-off}},\\]
+Rearranging, we find that:
 
 \\[t_\text{fall-off} = \frac{1}{\omega} \ln\left(\frac{R}{r_0}\right).\\]
 
