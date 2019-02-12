@@ -10,7 +10,7 @@ by the equation $E=mc^2$, discovered in 1905 by Albert Einstein. The quick brown
 
 The Time-Independent Schrödinger Equation:
 
-\\[-\frac{\hbar^2}{2m}\frac{\partial^2\Psi}{\partial x^2}+V\Psi=E\Psi\\]
+\\[-\frac{\hbar^2}{2m}\frac{\partial^2\psi}{\partial x^2}+V\psi=E\psi\\]
 
 The generalized Heisenberg Uncertainty Principle:
 
