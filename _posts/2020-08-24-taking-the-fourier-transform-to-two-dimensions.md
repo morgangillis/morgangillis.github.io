@@ -13,11 +13,11 @@ The goal of this post is to expand the concept of the Fourier transform to two d
 
 There are many kinds of transforms we could use to achieve our goal, but I've chosen to use a transform known as the **Fourier-Bessel transform** (or Hankel transform), which I will denote $\mathcal{B}$. In essence, the Fourier-Bessel transform is a technique of integrating the product of an arbitrary radial function $u(r)$ and an integral kernel, in this case the zero-order Bessel function of the first kind $J_0(\lambda r)$:
 
-$$\mathcal{B}(u(r)) = \int_{0}^{\infty} u(r) J_0(\lambda r) r \,dr = u(\lambda)$$
+\\[\mathcal{B}(u(r)) = \int_{0}^{\infty} u(r) J_0(\lambda r) r \,dr = u(\lambda)\\]
 
 This style of transform is particularly suited for radially symmetric functions. It enables us to reorganize the information of $u(r)$ in terms of Bessel functions involving a "frequency" variable $\lambda$. Converting backwards from $\lambda$ to $r$ is possible with the inverse Fourier-Bessel transform:
 
-$$\mathcal{B}^{-1}(u(\lambda)) = \int_{0}^{\infty} u(\lambda) J_0(\lambda r) \lambda \,d\lambda = u(r)$$
+\\[\mathcal{B}^{-1}(u(\lambda)) = \int_{0}^{\infty} u(\lambda) J_0(\lambda r) \lambda \,d\lambda = u(r)\\]
 
 We can use the Fourier-Bessel transform to solve both the wave equation and the heat equation by converting them from difficult PDEs into easy ODEs, and the approach is similar to that used for the simpler one-dimensional Fourier transforms.
 
@@ -25,17 +25,17 @@ We can use the Fourier-Bessel transform to solve both the wave equation and the 
 
 The key to solving these PDEs is to take advantage of a **crucial property** of the Fourier-Bessel transform, namely the relationship between the Fourier-Bessel transform of a function, $\mathcal{B}(u(r))$, and the Fourier-Bessel transform of the Laplacian of the function, $\mathcal{B}(\Delta u(r))$. The Laplacian for two-dimensional polar coordinates is defined as:
 
-$$\Delta u(r,\theta) = u_{rr} + \frac{1}{r}u_r + \frac{1}{r^2}u_{\theta\theta}$$
+\\[\Delta u(r,\theta) = u_{rr} + \frac{1}{r}u_r + \frac{1}{r^2}u_{\theta\theta}\\]
 
 Now, since our function $u(r)$ is radially symmetric and thus doesn't depend on $\theta$, the equation above simplifies to:
 
-$$\Delta u(r) = u_{rr} + \frac{1}{r}u_r$$
+\\[\Delta u(r) = u_{rr} + \frac{1}{r}u_r\\]
 
 (Remember I said the Fourier-Bessel transform is particularly suited for radially symmetric functions? This is why.)
 
 Then, with a little bit of effort, the relationship between $\mathcal{B}(u(r))$ and $\mathcal{B}(\Delta u(r))$ can be shown:
 
-$$\mathcal{B}(\Delta u(r)) = \int_{0}^{\infty} \left( u_{rr} + \frac{1}{r}u_r \right) J_0(\lambda r) r \,dr = -\lambda^2 \int_{0}^{\infty} u(r) J_0(\lambda r) r \,dr = -\lambda^2 \mathcal{B}(u(r))$$
+\\[\mathcal{B}(\Delta u(r)) = \int_{0}^{\infty} \left( u_{rr} + \frac{1}{r}u_r \right) J_0(\lambda r) r \,dr = -\lambda^2 \int_{0}^{\infty} u(r) J_0(\lambda r) r \,dr = -\lambda^2 \mathcal{B}(u(r))\\]
 
 The fact that $\mathcal{B}(u(r))$ and $\mathcal{B}(\Delta u(r))$ are proportional via the coefficient $-\lambda^2$ is the property that gives us the means of converting our PDEs into ODEs, and in turn solving them more easily.
 
@@ -57,11 +57,11 @@ Our strategy is to apply the Fourier-Bessel transform to each of these three con
 
 On the left is the original wave PDE, and on the right is a much easier ODE. It's not hard to show that these transformed conditions yield the following solution for $u(\lambda,t)$: 
 
-$$u(\lambda,t) = e^{-\lambda^2/2}\cos{\lambda t}$$
+\\[u(\lambda,t) = e^{-\lambda^2/2}\cos{\lambda t}\\]
 
 The presence of the cosine indicates that this function will oscillate with time—precisely how a wave should behave. With this solution for $u(\lambda,t)$, we can convert back to our original function $u(r,t)$ by taking an inverse Fourier-Bessel transform:
 
-$$u(r,t) = \mathcal{B}^{-1}(u(\lambda,t)) = \int_{0}^{\infty} e^{-\lambda^2/2} \cos{\lambda t} J_0(\lambda r) \lambda \,d\lambda$$
+\\[u(r,t) = \mathcal{B}^{-1}(u(\lambda,t)) = \int_{0}^{\infty} e^{-\lambda^2/2} \cos{\lambda t} J_0(\lambda r) \lambda \,d\lambda\\]
 
 Instead of solving this integral analytically, I used Wolfram Mathematica to calculate it numerically and plot the solution as a pretty spectacular animation:
 
@@ -87,11 +87,11 @@ Following the same strategy as before, we transform all three conditions to get:
 
 The solution to this is similarly straightforward to derive, and it ends up looking somewhat different than the one for the wave equation:
 
-$$u(\lambda,t) = e^{-\lambda^2/2} e^{-\lambda^2 t}$$
+\\[u(\lambda,t) = e^{-\lambda^2/2} e^{-\lambda^2 t}\\]
 
 Clearly this function will dissipate with time rather than oscillate, just like heat does in real life. Taking the inverse Fourier-Bessel transform, the final solution becomes:
 
-$$u(r,t) = \mathcal{B}^{-1}(u(\lambda,t)) = \int_{0}^{\infty} e^{-\lambda^2/2} e^{-\lambda^2 t} J_0(\lambda r) \lambda \,d\lambda$$
+\\[u(r,t) = \mathcal{B}^{-1}(u(\lambda,t)) = \int_{0}^{\infty} e^{-\lambda^2/2} e^{-\lambda^2 t} J_0(\lambda r) \lambda \,d\lambda\\]
 
 I animated this one in Mathematica as well. Here's the result:
 
