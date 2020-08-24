@@ -65,7 +65,7 @@ $$u(r,t) = \mathcal{B}^{-1}(u(\lambda,t)) = \int_{0}^{\infty} e^{-\lambda^2/2} \
 
 Instead of solving this integral analytically, I used Wolfram Mathematica to calculate it numerically and plot the solution as a pretty spectacular animation:
 
-![wave_solution](C:/Users/thear/Downloads/Sample%20Work%20for%20Asobo/wave.gif)
+![wave_solution]({{ site.url }}/assets/taking-the-fourier-transform-to-two-dimensions/wave.gif)
 
 It looks exactly like it what it should: a radially symmetric wave!
 
@@ -95,7 +95,7 @@ $$u(r,t) = \mathcal{B}^{-1}(u(\lambda,t)) = \int_{0}^{\infty} e^{-\lambda^2/2} e
 
 I animated this one in Mathematica as well. Here's the result:
 
-![heat_solution](C:/Users/thear/Downloads/Sample%20Work%20for%20Asobo/heat.gif)
+![heat_solution]({{ site.url }}/assets/taking-the-fourier-transform-to-two-dimensions/heat.gif)
 
 Pretty cool! (Or should I say hot?)
 
