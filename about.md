@@ -8,7 +8,6 @@ permalink: /about/
 
 This is the page about me. I'm a student at Santa Clara University. I study physics and mathematics.
 
-|Test|Table|
 |---:|:---|
 |The Wave Equation | \[u_{tt} = \Delta u\]|
 |Initial Condition | \[u(r,0) = e^{-r^2/2}\]|
