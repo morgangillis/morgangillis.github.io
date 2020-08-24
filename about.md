@@ -15,7 +15,7 @@ This is the page about me. I'm a student at Santa Clara University. I study phys
 
 ![heat]({{ site.url }}/assets/heat.gif)
 
-|$u_{tt} = \Delta u$|$\Rightarrow$|$u_{tt}(\lambda,t) = -\lambda^2 u(\lambda,t)$|
+|$u_{tt} = \Delta u$|$\Rightarrow$|$u_{tt} = -\lambda^2 u(\lambda,t)$|
 |---:|:---:|:---|
 |$u(r,0) = e^{-r^2/2}$|$\Rightarrow$|$u(\lambda,0) = e^{-\lambda^2/2}$|
 |$u(\infty,t) = 0$|$\Rightarrow$|$u(\infty,t) = 0$|
