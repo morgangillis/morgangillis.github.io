@@ -16,14 +16,6 @@ Table with a dollar sign delimiter.
 |Initial Condition: | $u(r,0) = e^{-r^2/2}$|
 |Boundary Condition: | $u(\infty,t) = 0$|
 
-Table with a slash and square bracket delimiter.
-
-|    |    |
-|---:|:---|
-|The Wave Equation: | \\[u_{tt} = \Delta u\\]|
-|Initial Condition: | \\[u(r,0) = e^{-r^2/2}\\]|
-|Boundary Condition: | \\[u(\infty,t) = 0\\]|
-
 Tables added with empty header.
 
 ![heat]({{ site.url }}/assets/heat.gif)
